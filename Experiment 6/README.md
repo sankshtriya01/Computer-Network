@@ -100,9 +100,6 @@ All simulations are repeatable using the steps mentioned above.
 Output File - Multiple Access Protocols Simulation
 =================================================
 
-Student Name: Neel
-Date: April 2026
-
 Summary of Observations:
 
 1. Pure ALOHA:
