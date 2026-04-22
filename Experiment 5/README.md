@@ -1,4 +1,4 @@
-# Assignment: Flow Control and Error Control Protocols (Stop-and-Wait, Go-Back-N ARQ, Selective Repeat ARQ)
+# Experiment 5: Flow Control and Error Control Protocols (Stop-and-Wait, Go-Back-N ARQ, Selective Repeat ARQ)
 
 ## 1. Network Topology Design
 - **Simple LAN topology** (as per assignment guidelines)
