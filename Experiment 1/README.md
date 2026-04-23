@@ -6,24 +6,24 @@ This assignment demonstrates the design and simulation of four fundamental netwo
 
 ## 2. Network Topologies Designed
 
-### 1. Bus Topology (`bus.pkt`)
+### 1. Bus Topology (`Bus Topology.pkt`)
 - All PCs connected to a single shared backbone cable (simulated using a Hub or coaxial-like shared medium).
 - Devices: 4–6 PCs + 1 Hub
 - Connection: All PCs connected to a central Hub using Copper Straight-Through cables.
 
-### 2. Star Topology (`star.pkt`)
+### 2. Star Topology (`Star Topology.pkt`)
 - Most commonly used topology in modern LANs.
 - All PCs connected to a central Switch.
 - Devices: 4–6 PCs + 1 Switch (2960)
 - Connection: Point-to-point links from each PC to the central Switch.
 
-### 3. Ring Topology (`ring.pkt`)
+### 3. Ring Topology (`Ring Topology.pkt`)
 - Devices connected in a closed loop.
 - Data travels in one direction (unidirectional ring).
 - Devices: 4–6 PCs connected in a circular manner using Copper Straight-Through cables.
 - Note: Simulated using direct PC-to-PC connections forming a logical ring.
 
-### 4. Mesh Topology (`mesh.pkt`)
+### 4. Mesh Topology (`Mesh Topology.pkt`)
 - Every device connected to every other device (full mesh).
 - Devices: 4 PCs with multiple direct connections between each pair.
 - Provides multiple paths for data flow and high redundancy.
