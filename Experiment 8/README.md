@@ -1,4 +1,4 @@
-# IPv4, IPv6 and Address Mapping Simulation
+# Experiment 8: IPv4, IPv6 and Address Mapping Simulation
 
 ## 1. Objective
 The objective of this assignment is to simulate logical addressing using IPv4 and IPv6 and demonstrate address mapping techniques such as ARP, RARP, BOOTP, and DHCP. The simulation visualizes how devices acquire and resolve network addresses.
