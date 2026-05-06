@@ -1,0 +1,25 @@
+Test Cases - Packet Switching vs Circuit Switching
+==================================================
+
+Test Case 1: Basic Connectivity Test
+- Ping from PC0 to PC2 (different networks)
+- Expected: Successful ping in both files
+
+Test Case 2: Packet Switching Simulation
+- Multiple PCs sending normal traffic simultaneously
+- Observation: Packets mixed and transmitted efficiently
+
+Test Case 3: Circuit Switching Simulation
+- Continuous ping from PC0 to PC2
+- Simultaneously send traffic from PC1 to PC3
+- Observation: Dedicated path affects other traffic
+
+Test Case 4: High Traffic Load
+- Multiple continuous pings + normal PDUs
+- Compared delay and bandwidth utilization
+
+Test Case 5: Failure Simulation
+- Disabled one link and observed behavior in both methods
+
+Repeatability: All tests were performed 3 times with consistent results.
+Tool: Cisco Packet Tracer Simulation Mode
