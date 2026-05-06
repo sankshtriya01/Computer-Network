@@ -1,0 +1,95 @@
+Configuration Commands - Packet Switching & Circuit Switching
+===============================================================
+
+Router: Router0 (2911)
+
+1. Basic Router Configuration
+----------------------------
+
+enable
+configure terminal
+hostname Router0
+
+! Interface Configuration
+interface FastEthernet0/0
+ ip address 192.168.1.10 255.255.255.0
+ no shutdown
+exit
+
+interface FastEthernet0/1
+ ip address 192.168.2.10 255.255.255.0
+ no shutdown
+exit
+
+! Static Routes
+ip route 192.168.1.0 255.255.255.0 FastEthernet0/0
+ip route 192.168.2.0 255.255.255.0 FastEthernet0/1
+
+end
+write memory
+
+
+2. Full Running Configuration Command (Copy-Paste Ready)
+-------------------------------------------------------
+
+enable
+configure terminal
+hostname Router0
+
+interface GigabitEthernet0/0
+ ip address 192.168.1.10 255.255.255.0
+ no shutdown
+exit
+
+interface GigabitEthernet0/1
+ ip address 192.168.2.10 255.255.255.0
+ no shutdown
+exit
+
+ip route 192.168.1.0 255.255.255.0 FastEthernet0/0
+ip route 192.168.2.0 255.255.255.0 FastEthernet0/1
+
+end
+write memory
+
+
+3. Verification Commands
+-----------------------
+
+show ip interface brief
+show running-config
+show ip route
+show interfaces
+
+
+4. PC IP Configuration (Manual)
+-----------------------------
+
+PC0:
+IP Address      : 192.168.1.1
+Subnet Mask     : 255.255.255.0
+Default Gateway : 192.168.1.10
+
+PC1:
+IP Address      : 192.168.1.2
+Subnet Mask     : 255.255.255.0
+Default Gateway : 192.168.1.10
+
+PC2:
+IP Address      : 192.168.2.1
+Subnet Mask     : 255.255.255.0
+Default Gateway : 192.168.2.10
+
+PC3:
+IP Address      : 192.168.2.2
+Subnet Mask     : 255.255.255.0
+Default Gateway : 192.168.2.10
+
+
+5. Continuous Ping Command (For Circuit Switching Simulation)
+------------------------------------------------------------
+
+In PC Command Prompt:
+ping 192.168.2.1          (then keep pressing Enter)
+OR
+ping 192.168.2.1 -n 500   (sends 500 packets)
