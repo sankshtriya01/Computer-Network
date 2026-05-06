@@ -1,0 +1,26 @@
+Output File - Packet Switching vs Circuit Switching
+===================================================
+
+
+Simulation Results:
+
+Packet Switching:
+-----------------
+- Packets from different sources were successfully transmitted simultaneously.
+- Efficient sharing of bandwidth observed.
+- Packets traveled independently through the router.
+- Low delay and good resource utilization.
+
+Circuit Switching Simulation:
+-----------------------------
+- Continuous ping created a dedicated-like path.
+- When continuous traffic was running, other communications experienced higher delay.
+- Resources remain reserved even during idle periods.
+- Less flexible than packet switching.
+
+Performance Summary:
+- Packet Switching: Higher efficiency, better for data networks.
+- Circuit Switching: Guaranteed path but poor bandwidth utilization.
+
+Conclusion:
+Packet Switching is far more suitable for modern computer networks due to its flexibility and efficient use of network resources.
